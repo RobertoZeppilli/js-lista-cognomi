@@ -1,0 +1,26 @@
+/* reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* lista ordinata */
+#lista-cognomi {
+    background-color: hsl(120, 40%, 90%);
+    padding: 5px 30px;
+    color: hsl(120, 80%, 30%);;
+}
+
+/* item della lista */
+#lista-cognomi li {
+    padding: 10px 0;
+}
