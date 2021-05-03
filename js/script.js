@@ -19,6 +19,8 @@ var listaCognomi = [
 // 2.chiedo all'utente di inserire il suo cognome
 var cognomeUtente = prompt("Inserisci il tuo cognome!");
 
+cognomeUtente = cognomeUtente[0].toUpperCase() + cognomeUtente.toLowerCase().slice(1);
+
 // 3.tramite .push() inserisco il cognome dell'utente nell'array
 listaCognomi.push(cognomeUtente);
 
