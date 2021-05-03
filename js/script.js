@@ -37,3 +37,8 @@ for (var i = 0; i < listaCognomi.length; i++) {
 
 }
 
+var posizioneJs = listaCognomi.indexOf(cognomeUtente);
+console.log("La posizione JS del cognome è: " + posizioneJs);
+
+var posizioneUmana = listaCognomi.indexOf(cognomeUtente);
+console.log("La posizione umana del cognome è: " + (posizioneUmana + 1));
